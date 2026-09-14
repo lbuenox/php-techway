@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Aba de navegação normal (não selecionada) -->
+
     <style name="TabItem">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -15,7 +15,7 @@
         <item name="android:textSize">12sp</item>
     </style>
 
-    <!-- Aba de navegação selecionada (destacada) -->
+
     <style name="TabItemSelecionado">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -43,5 +43,20 @@
         <item name="android:textColor">#1F2A56</item>
         <item name="android:textSize">14sp</item>
         <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BotaoCurso">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">14dp</item>
+        <item name="android:background">@drawable/bg_button_curso</item>
+        <item name="android:paddingStart">18dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
     </style>
 </resources>
