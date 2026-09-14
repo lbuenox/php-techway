@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="#DED7E0">
 
-    <!-- ============ TOPO ESCURO COM LOGO ============ -->
+
     <LinearLayout
         android:id="@+id/topBar"
         android:layout_width="0dp"
@@ -28,7 +28,6 @@
 
     </LinearLayout>
 
-    <!-- ============ CARD CLARO COM O FORMULÁRIO ============ -->
     <androidx.core.widget.NestedScrollView
         android:layout_width="0dp"
         android:layout_height="0dp"
