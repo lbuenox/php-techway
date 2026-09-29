@@ -11,6 +11,8 @@ import retrofit2.http.POST;
 public interface ApiService {
 
     @Headers("Content-Type: application/json")
-    @POST("auth/login")
-    Call<LoginResponse> login(@Body LoginRequest request);
+    @POST("techway/api/login.php")
+    Call<LoginResponse> login(
+            @Body LoginRequest request
+    );
 }

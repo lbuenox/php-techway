@@ -1,17 +1,20 @@
 package android.larissa.bueno.tcc.model;
 
-import com.google.gson.annotations.SerializedName;
-
 public class LoginResponse {
 
-    @SerializedName("token")
+    private boolean sucesso;
+    private String mensagem;
     private String token;
-
-    @SerializedName("nome")
     private String nome;
+    private int id;
 
-    @SerializedName("id")
-    private String id;
+    public boolean isSucesso() {
+        return sucesso;
+    }
+
+    public String getMensagem() {
+        return mensagem;
+    }
 
     public String getToken() {
         return token;
@@ -21,7 +24,7 @@ public class LoginResponse {
         return nome;
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 }
